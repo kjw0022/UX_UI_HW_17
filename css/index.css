@@ -8,6 +8,7 @@
     text-align:center;
   }
   nav{
+    float:right;
     width:"73%";
     padding:"1%";
   }
@@ -27,9 +28,8 @@
    background-color: #373738;
   }
   ul{
-    display:inline-block;
-    display:flex;
-    justify-content:flex-end;
+    float:right;
+    padding-right: 50px;
     vertical-align: top;
   }
   li{
@@ -37,5 +37,6 @@
     justify-content:space-between;
   }
   .footer{
+    padding-left: 50px;
     margin:"25px";
   }
